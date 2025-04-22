@@ -1,0 +1,29 @@
+[0m[[0m[31merror[0m] [0m[0mrequests.RequestFailedException: Request to https://api.spotify.com/v1/playlists/37i9dQZF1DX4JAvHpjipBk failed with status code 404[0m
+[0m[[0m[31merror[0m] [0m[0m{"error": {"status": 404, "message": "Resource not found" } }[0m
+[0m[[0m[31merror[0m] [0m[0m	at requests.Requester$$anon$1.readBytesThrough(Requester.scala:356)[0m
+[0m[[0m[31merror[0m] [0m[0m	at geny.Readable.writeBytesTo(Writable.scala:93)[0m
+[0m[[0m[31merror[0m] [0m[0m	at geny.Readable.writeBytesTo$(Writable.scala:93)[0m
+[0m[[0m[31merror[0m] [0m[0m	at requests.Requester$$anon$1.writeBytesTo(Requester.scala:165)[0m
+[0m[[0m[31merror[0m] [0m[0m	at requests.Requester.apply(Requester.scala:114)[0m
+[0m[[0m[31merror[0m] [0m[0m	at SpotifyPlaylistAnalyzer$.getPlaylistData(SpotifyPlaylistAnalyzer.scala:9)[0m
+[0m[[0m[31merror[0m] [0m[0m	at SpotifyPlaylistAnalyzer$.main(SpotifyPlaylistAnalyzer.scala:39)[0m
+[0m[[0m[31merror[0m] [0m[0m	at SpotifyPlaylistAnalyzer.main(SpotifyPlaylistAnalyzer.scala)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:566)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.invokeMain(Run.scala:135)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.execute$1(Run.scala:85)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.$anonfun$runWithLoader$5(Run.scala:112)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run$.executeSuccess(Run.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.runWithLoader(Run.scala:112)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$bgRunTask$6(Defaults.scala:2072)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$termWrapper$2(Defaults.scala:2011)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Try$.apply(Try.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:378)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) requests.RequestFailedException: Request to https://api.spotify.com/v1/playlists/37i9dQZF1DX4JAvHpjipBk failed with status code 404[0m
+[0m[[0m[31merror[0m] [0m[0m{"error": {"status": 404, "message": "Resource not found" } }[0m
